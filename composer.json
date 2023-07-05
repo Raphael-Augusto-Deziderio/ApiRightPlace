@@ -1,5 +1,5 @@
 {
-    "name": "raphael-augusto-deziderio/apirightplace",
+    "name": "raphaeldeziderio/apirightplace",
     "type": "project",
     "description": "Api Right Place.",
     "keywords": ["framework", "laravel", "Right Place", "Right", "Place"],
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Raphael-Augusto-Deziderio\\ApiRightPlace\\": "src/"
+            "RaphaelDeziderio\\ApiRightPlace\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Raphael-Augusto-Deziderio\\ApiRightPlace\\Tests\\": "tests/"
+            "RaphaelDeziderio\\ApiRightPlace\\Tests\\": "tests/"
         }
     },
     "extra": {
