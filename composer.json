@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "Raphael-Augusto-Deziderio/ApiRightPlace",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ApiRightPlace\\": "src/",
+            "Raphael-Augusto-Deziderio\\ApiRightPlace\\": "src/",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
