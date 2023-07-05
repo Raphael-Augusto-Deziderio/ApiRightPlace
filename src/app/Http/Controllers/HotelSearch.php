@@ -1,12 +1,14 @@
 <?php
 
-namespace RaphaelDeziderio\ApiRightPlace\App\Http\Controllers\;
+namespace RaphaelDeziderio\ApiRightPlace\App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use Pnlinh\GoogleDistance\Facades\GoogleDistance;
 use yidas\googleMaps\Client as GoogleServices;
 use Illuminate\Support\Facades\Log;
+use App\Http\Controllers\Controller;
+
 class HotelSearch extends Controller
 {
     public function __construct(Client $client, Request $request)
