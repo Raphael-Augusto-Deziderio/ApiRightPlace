@@ -88,11 +88,10 @@ class ApiHotelSearch extends Controller
         }
 
         //GETTING THE RIGHT PLACE
-        $rightPlaces = $collectHotels->all();
+        $rightPlaces = $collectHotels;
         foreach($rightPlaces as $rightPlace){
             $rightPlaceFormated = 'Hotel ' . $rightPlace['name'] . ', ' . $rightPlace['distanceFormated'] . ', ' . $rightPlace['pricePerNight'] . ' EUR';
             echo $rightPlaceFormated . "</br>";
         }
-
     }
 }
