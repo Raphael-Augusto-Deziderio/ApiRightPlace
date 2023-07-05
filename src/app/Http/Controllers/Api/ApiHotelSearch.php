@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 use Pnlinh\GoogleDistance\Facades\GoogleDistance;
 use yidas\googleMaps\Client as GoogleServices;
 use Illuminate\Support\Facades\Log;
-class HotelSearch extends Controller
+class ApiHotelSearch extends Controller
 {
     public function __construct(Client $client, Request $request)
     {
