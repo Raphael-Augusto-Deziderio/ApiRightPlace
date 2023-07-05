@@ -1,5 +1,5 @@
 {
-    "name": "Raphael-Augusto-Deziderio/ApiRightPlace",
+    "name": "raphael-augusto-deziderio/apirightplace",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
@@ -66,6 +66,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
