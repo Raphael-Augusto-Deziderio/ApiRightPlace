@@ -19,20 +19,8 @@ class ApiHotelSearch extends Controller
     }
 
 
-    public function getNearbyHotelsApi(){
+    public function getNearbyHotelsApi($latitude, $longitude, $orderBy = 'proximity'){
 
-        //GETTING ALL REQUEST
-        $data = $this->request->all();
-
-        //GETTING LATITUDE AND LONGITUDE
-        $latitude = $data['latitude'];
-        $longitude = $data['longitude'];
-
-        if($this->request->exists('orderBy')){
-            $orderBy = $data['orderBy'];
-        } else {
-            $orderBy = 'proximity';
-        }
 
         //URL BASE TO ITERATE
         $baseUrl = 'https://xlr8-interview-files.s3.eu-west-2.amazonaws.com/source_';
