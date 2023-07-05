@@ -1,11 +1,11 @@
 # RIGHT PLACE
 ## Configuration
 
-In the tag 'require' into composer.json archive add:
+In the tag 'require' into composer.json file, add:
 
     "raphaeldeziderio/apirightplace": "dev-main"
         
-Also in the composer.json archive, add in final archive:
+Also in the composer.json archive, add at end of file:
 
     "repositories": [
             {
