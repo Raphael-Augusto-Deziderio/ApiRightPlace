@@ -21,7 +21,6 @@ class ApiHotelSearch extends Controller
 
     public function getNearbyHotelsApi($latitude, $longitude, $orderBy = 'proximity'){
 
-
         //URL BASE TO ITERATE
         $baseUrl = 'https://xlr8-interview-files.s3.eu-west-2.amazonaws.com/source_';
 
