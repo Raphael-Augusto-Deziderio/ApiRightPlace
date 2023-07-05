@@ -1,0 +1,102 @@
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    flex: 1;
+}
+
+/* Flex Item */
+.item {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.imgLogo{
+    width: 300px;
+    max-height: 400px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.inputs{
+    border: #000000 solid;
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+}
+
+.inputs:hover{
+    border: #0cc0df solid;
+    border-radius: 5px;
+    width: 180px;
+    height: 25px;
+}
+
+.btns{
+    border: #000000 solid;
+    border-radius: 5px;
+    width: 5rem;
+    height: auto;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btns:hover{
+    border: #0c8aa6 solid;
+    border-radius: 5px;
+    width: 5rem;
+    height: auto;
+    background-color: #0cc0df;
+    color: #ffffff;
+}
+
+.waiting{
+    border: 0.5rem solid #ccc;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.rightPlace{
+    margin-top: 3rem;
+    height: 12rem;
+    max-width: 30rem;
+    border: 0.5rem solid #ccc;
+    border-radius: 10px;
+}
+
+.main{
+    height: 17rem;
+    max-width: 30rem;
+    border: 0.5rem solid #ccc;
+    border-radius: 10px;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body{
+    background-color: #eaeaea;
+}
