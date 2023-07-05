@@ -1,6 +1,5 @@
 # RIGHT PLACE
-
-##Configuration
+## Configuration
 
 In the tag 'require' into composer.json archive add:
 
@@ -16,13 +15,11 @@ Also in the composer.json archive, add in final archive:
         ]
 
 ## Installation
-
 You can add this library as a local, per-project dependency to your project using [Composer](https://getcomposer.org/):
 
     composer require raphaeldeziderio/apirightplace
 
 ## Usage examples
-
 ```php
 use RaphaelDeziderio\ApiRightPlace\App\Http\Controllers\Api\ApiHotelSearch;
 
